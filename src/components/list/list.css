@@ -1,0 +1,22 @@
+.list_item {
+  width: 100%;
+  padding: 10px;
+  background: #fcffcf;
+  border: 1px #000 dashed;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px tomato;
+}
+
+.list_item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+.list_item .sub_title {
+  font-size: 18px;
+  line-height: 22px;
+}
+.list_item .comment_content {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  color: #999;
+}
