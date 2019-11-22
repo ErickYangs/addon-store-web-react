@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>ico_visibility_on</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ico_visibility_on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="路径" points="0 0 32 0 32 32 0 32"></polygon>
+            <path d="M16,6 C9.33333333,6 3.64,10.1466667 1.33333333,16 C3.64,21.8533333 9.33333333,26 16,26 C22.6666667,26 28.36,21.8533333 30.6666667,16 C28.36,10.1466667 22.6666667,6 16,6 Z M16,22.6666667 C12.32,22.6666667 9.33333333,19.68 9.33333333,16 C9.33333333,12.32 12.32,9.33333333 16,9.33333333 C19.68,9.33333333 22.6666667,12.32 22.6666667,16 C22.6666667,19.68 19.68,22.6666667 16,22.6666667 Z M16,12 C13.7866667,12 12,13.7866667 12,16 C12,18.2133333 13.7866667,20 16,20 C18.2133333,20 20,18.2133333 20,16 C20,13.7866667 18.2133333,12 16,12 Z" id="形状" fill="#000000" fill-rule="nonzero" opacity="0.598706"></path>
+        </g>
+    </g>
+</svg>

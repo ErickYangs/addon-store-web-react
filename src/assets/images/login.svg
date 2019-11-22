@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="36px" viewBox="0 0 104 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Log in</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AvenirNext-Bold, Avenir Next" font-size="36" font-weight="bold">
+        <g id="登陆" transform="translate(-1258.000000, -279.000000)" fill="#1787EB">
+            <g id="编组" transform="translate(1080.000000, 220.000000)">
+                <text id="Log-in">
+                    <tspan x="176" y="86">Log in</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,18 +1,11 @@
 import './App.css'
 import React from 'react'
-// import logo from './logo.svg'
-import Button from 'antd/es/button'
-import QRCode from 'qrcode.react'
-// var QRCode = require('qrcode.react')
-import ListWrap from './components/hello/Hello'
-import Home from './components/Home'
-import Movie from './components/Movie'
-import About from './components/About'
 import 'antd/dist/antd.css'
 
+import AccountWrap from './view/Account'
 
 // 路由
-import { HashRouter, Switch, Route, Link } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 
 /**
  * HashRouter 表示一个路由的跟容器
@@ -22,20 +15,9 @@ import { HashRouter, Switch, Route, Link } from 'react-router-dom'
 
 function App() {
   return (
-    // 当使用 HashRouter 把 App 根组件的元素包裹起来之后，网站就已经启用路由了
     <HashRouter>
       <div className="App">
-        <Button type="primary">Button</Button>
-        {/* <ListWrap></ListWrap> */}
-        <QRCode value="http://facebook.github.io/react/" />
-        <Link to="/home">首页</Link>
-        <Link to="/movie">电影</Link>
-        <Link to="/about">关于</Link>
-        <hr />
-
-        <Route path="/home" component={Home}></Route>
-        <Route path="/movie" component={Movie}></Route>
-        <Route path="/about" component={About}></Route>
+        <Route path="/account" component={AccountWrap}></Route>
       </div>
     </HashRouter>
   )
