@@ -4,7 +4,7 @@ import List from '../list/lis'
 import './hello.module.css'
 import hhscss from './a1.module.scss'
 import './a1.scss'
-import Button from 'antd/es/button'
+// import Button from 'antd/es/button'
 
 export default class ListWrap extends Component {
   constructor() {
@@ -68,9 +68,9 @@ export default class ListWrap extends Component {
             <List {...item} key={item.id}></List>
           ))}
         </div>
-        <Button type="danger" onClick={() => this.handlerClick('click func 🐷')}>
+        {/* <Button type="danger" onClick={() => this.handlerClick('click func 🐷')}>
           Click
-        </Button>
+        </Button> */}
           <h3>{this.state.message}</h3>
           <input ref="inputText" type="text" value={this.state.message} onChange={() => this.changeInput()}/>
       </div>
