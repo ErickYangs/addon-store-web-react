@@ -212,48 +212,48 @@ table {
   border-spacing: 0;
 }
 /* Roboto Font */
-// @font-face {
-//   font-family: Roboto;
-//   src: url('../assets/Roboto/Roboto-Regular.woff') format('woff'),
-//     url('../assets/Roboto/Roboto-Regular.woff2') format('woff2');
-//   font-weight: 400;
-//   font-display: auto;
-// }
-// @font-face {
-//   font-family: Roboto;
-//   src: url('../assets/Roboto/Roboto-Medium.woff') format('woff'),
-//     url('../assets/Roboto/Roboto-Medium.woff2') format('woff2');
-//   font-weight: 600;
-//   font-display: auto;
-// }
-// @font-face {
-//   font-family: Roboto;
-//   src: url('../assets/Roboto/Roboto-Black.woff') format('woff'),
-//     url('../assets/Roboto/Roboto-Black.woff2') format('woff2');
-//   font-weight: 900;
-//   font-display: auto;
-// }
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/Roboto/Roboto-Regular.woff') format('woff'),
+    url('../assets/Roboto/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: auto;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/Roboto/Roboto-Medium.woff') format('woff'),
+    url('../assets/Roboto/Roboto-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-display: auto;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/Roboto/Roboto-Black.woff') format('woff'),
+    url('../assets/Roboto/Roboto-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-display: auto;
+}
 /* DINPro */
-// @font-face {
-//   font-family: DINPro;
-//   src: url('../assets/Dinpro/DINPro.otf');
-//   font-weight: 800;
-//   font-display: auto;
-// }
-// @font-face {
-//   font-family: DINPro-Medium;
-//   src: url('../assets/Dinpro/DINPro-Medium.otf'),
-//     url('../assets/Dinpro/DINPro-Medium.eot') format('eot');
-//   font-weight: 800;
-//   font-display: auto;
-// }
+@font-face {
+  font-family: DINPro;
+  src: url('../assets/Dinpro/DINPro.otf');
+  font-weight: 800;
+  font-display: auto;
+}
+@font-face {
+  font-family: DINPro-Medium;
+  src: url('../assets/Dinpro/DINPro-Medium.otf'),
+    url('../assets/Dinpro/DINPro-Medium.eot') format('eot');
+  font-weight: 800;
+  font-display: auto;
+}
 .number_style {
   font-family: DINPro-Medium, DINPro;
 }
 .hover6 {
   transition: all 0.6s;
 }
-#app.lang_en {
+#root {
   font-family: 'Roboto', 'PingFang SC Bold', 'PingFang SC', 'Microsoft Yahei',
     Helvetica Neue, Helvetica, Arial, sans-serif;
 }
