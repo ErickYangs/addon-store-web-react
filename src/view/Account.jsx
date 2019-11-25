@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import '../styles/account.scss'
 import accountScss from '../styles/account.module.scss' // 模块化加载 css 防止全局使用 相当于 scoped
 import LangDiv from '../components/modules/LangB'
+import LoginDiv from '../components/accountModule/Login'
 
 export class AccountWrap extends Component {
   render() {
@@ -37,6 +38,7 @@ export class AccountWrap extends Component {
           <div className={accountScss._left}></div>
           <div className={accountScss._right}>
             <div className={accountScss.account_msg}>
+              <LoginDiv></LoginDiv>
               {/* <router-view /> */}
             </div>
           </div>
